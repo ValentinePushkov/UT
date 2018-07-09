@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="PositiveTests">
+        <classes>
+            <class name="positiveTests.CheckTriangle"/>
+            <class name="positiveTests.DetectTriangle"/>
+            <class name="positiveTests.GetSquare"/>
+        </classes>
+    </test>
+    <test name="NegativeTests">
+        <classes>
+            <class name="negativeTests.CheckTrianglePlusGetMessage"/>
+        </classes>
+    </test>
+
+</suite>
